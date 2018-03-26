@@ -5,12 +5,14 @@ python-i18n-demo
 
 测试环境
 
-* MacOS 10.13.1
-* Python2.7.x
+* MacOS 10.13.1
+* Python2.7.x
 
-### gettext 
+[python gettext doc](https://docs.python.org/2/library/gettext.html)
 
-首先需要一个工具 `gettext`, macos 上已经有了但是没有放到 `/usr/bin` 目录，所以先执行
+### gettext 
+
+首先需要一个工具 `gettext`, macos 上已经有了但是没有放到 `/usr/bin` 目录，所以先执行
 ```
 brew link --force gettext
 ```
@@ -19,11 +21,11 @@ brew link --force gettext
 
 Centos应该是默认安装了这个组件，`gettext -h` 便可以看到，其他系统安装起来应该不是很难。
 
-### 案例
+### 案例
 
-主要是2个小例子
+主要是2个小例子
 
-* 纯文本怎样显示中英文
+* 纯文本怎样显示中英文
 * 带有占位符的句子怎么样显示中英文
 
 创建 demo.py 
